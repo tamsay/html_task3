@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" media="screen" href="particles/style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/84fe0d4adf.js"></script>
+
+    <title>Longe Temitope - Profile</title>
+</head>
+<body>
+        <div id="particles-js"></div>
+
+<section class="py-0 header">
+  <div class="mycontainer">
+      
+          <img src="hello3.png" width="15%" class="mb-2" id="pageLogo">
+          
+     
+      <div class="row">
+          <div class="col-md-3">
+              <!-- Tabs nav -->
+              <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link mb-2 p-2 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-bioData" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                      <i class="fa fa-user-circle-o mr-2"></i>
+                      <span class="font-weight-bold large text-uppercase">Bio-Data</span></a>
+
+                  <a class="nav-link mb-2 p-2 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-interests" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                      <i class="fa fa-calendar-minus-o mr-2"></i>
+                      <span class="font-weight-bold large text-uppercase">About Me</span></a>
+
+                  <a class="nav-link mb-2 p-2 shadow" id="v-pills-contactme-tab" data-toggle="pill" href="#v-pills-contactme" role="tab" aria-controls="v-pills-contactme" aria-selected="false">
+                      <i class="fa fa-star mr-2"></i>
+                      <span class="font-weight-bold  text-uppercase">Contact Me</span></a>
+                  
+                  <a class="nav-link mb-2 p-2 shadow" id="v-pills-suprise-tab" data-toggle="pill" href="#v-pills-suprise" role="tab" aria-controls="v-pills-suprise" aria-selected="false">
+                    <i class="fa fa-exclamation-triangle mr-2"></i>
+                    <span class="font-weight-bold text-uppercase">Don't Click</span></a>
+                    
+                    <img src="profilepic.jpg" width="75%" id="profilepic" class="mb-1">
+                    <p class="internId">Internship ID: SGN-00642</p>
+
+                  </div>
+          </div>
+
+
+          <div class="col-md-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade shadow rounded bg-white show active p-3" id="v-pills-bioData" role="tabpanel" aria-labelledby="v-pills-bioData-tab">
+    
+                      <h2 class="mb-3">Personal Information</h2>
+                      <p class = "para">Name: <span class="details">Longe Temitope</span></p>
+                      <p class = "para">State of Origin: <span class="details">Ekiti State</span></p>
+                      <p class = "para">Date Of Birth: <span class="details">2nd July</span></p>
+                      <p class = "para">Address: <span class="details">7 Coker Alhaja Street, Iju, Lagos</span></p>
+                      <p class = "para">Occupation: <span class="details">Engineer</span></p>
+                      <p class = "para">Home Town: <span class="details">Ikole-Ekiti</span></p>
+                      <p class = "para">Slack ID: <span class="details">@tlonge</span></p>
+                      
+                  </div>
+                  
+                  <div class="tab-pane fade shadow rounded bg-white p-3" id="v-pills-interests" role="tabpanel" aria-labelledby="v-pills-interests-tab">
+                      <h2 class="mb-3">About Me</h2>
+                      <p class="para-interest">I love providing solutions to problems and helping people in any capacity I can. I'm fulfilled when I put smiles on people's face however little it may be. Listed below are other things I do and my areas of interest</p>
+                      <li class="interest">Playing Badminton, football was actually my first love but Badminton came and claimed the first spot</li>
+                      <li class="interest">Travelling</li>
+                      <li class="interest">Listening to Music, creating music and playing musical instruments - You can't go wrong with a guitar !!!</li>
+                      <li class="interest">Writing, Reading, Learning and Coding obviously</li>
+                      <li class="interest">Volunteering in various online and offline campaigns</li>
+                      <li class="interest">Media - Video Editing mainly and little bit of graphics design</li>
+                  </div>
+                  
+                  <div class="tab-pane fade shadow rounded bg-white p-2" id="v-pills-contactme" role="tabpanel" aria-labelledby="v-pills-contactme-tab">
+                      <h2 class="mb-2">Contact Me</h2>
+                      <p class="font-italic mb-2">I would love to hear from you!</p>
+                    
+<form id="contact-form" method="GET" role="form">
+  <div class="messages"></div>
+
+  <div class="controls">
+
+      <div class="row">
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label for="form_name">Full Name *</label>
+                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname and surname *" required="required" data-error="Firstname and/or Surname is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+         <div class="col-md-6">
+              <div class="form-group">
+                  <label for="form_number">Mobile Number *</label>
+                  <input id="form_number" type="number" name="number" class="form-control" placeholder="Please enter your mobile number *" required="required" data-error="Mobile Number is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>          
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                  <label for="form_message">Message *</label>
+                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave a message for me."></textarea>
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+          <div class="col-md-12">
+              <input type="submit" class="btn btn-success btn-send" value="Send message">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <p class="text-muted">
+                  <strong>*</strong> These fields are required.</p>
+          </div>
+      </div>
+  </div>
+
+</form>
+
+                  </div>
+
+                  <div class="tab-pane fade shadow rounded bg-white p-2" id="v-pills-suprise" role="tabpanel" aria-labelledby="v-pills-suprise-tab">
+                    <h2 class="mb-2">GOTCHA</h2>
+                    <img src="gbosa.jpg" id="gbosaImage">
+                    <p style="font-size: 1.5em;"><strong>A special shoutout to the cast and crew of the START.NG program, Eyin gangan ni real MVP.!!!</strong></p>
+                    
+                    <p><em>Nagode | Gracias | Thank You | Danke | Daalu | Ese o </em></p>
+                    
+            
+                      <div id="socialMedia">
+
+                        <p>Let's Connect</p>
+
+                        <div>
+                          <a href="http://www.twitter.com/longetope" target="_blank"><img class = 'icon' src="twitter.svg" alt="twitter"></a>
+                        <a href="#"><img class = 'icon' src="facebook.svg" alt="facebook"></a>
+                        <a href="#"><img class = 'icon' src="instagram.svg" alt="instagram"></a>
+                        <a href="http://www.linkedin.com/in/temitope-longe" target="_blank"><img class = 'icon' src="linkedin.svg" alt="linkedin"></a>
+                        <a href="mailto: longetemitope@gmail.com" target="_blank"><img class = 'icon' src="envelope-square.svg" alt="email"></a>
+                        <a href="tel: 08037586047" target="_blank"><img class = 'icon' src="phone-square-alt.svg" alt="phone">08037586047</a>
+                        </div>
+                        
+                      </div>
+                
+                </div>
+                  
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    <footer>
+            
+      <div id="socialMedia">
+        <p>Let's Connect</p>
+        <a href="http://www.twitter.com/reispart" target="_blank"><img class = 'icon' src="twitter.svg" alt="twitter"></a>
+        <a href="http://www.facebook.com/reispartechnologies" target="_blank"><img class = 'icon' src="facebook.svg" alt="facebook"></a>
+        <a href="http://www.instagram.com/reispartechnologies" target="_blank"><img class = 'icon' src="instagram.svg" alt="instagram"></a>
+        <a href="http://www.linkedin.com/company/reispar-technologies" target="_blank"><img class = 'icon' src="linkedin.svg" alt="linkedin"></a>
+        <a href="mailto: longetemitope@gmail.com" target="_blank"><img class = 'icon' src="envelope-square.svg" alt="email"></a>
+        <a href="tel: 08037586047" target="_blank"><img class = 'icon' src="phone-square-alt.svg" alt="phone">08037586047</a>
+      </div>
+    </footer>
+    
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="particles/particles.js"></script>
+    <script src="particles/app.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+</html>
